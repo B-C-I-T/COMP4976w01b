@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lab_01</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <img src="images/bcit_soc_logo.png"
+        <ul height="200">
+            <br />
+            <li><a href="Tempeature.aspx">Tempeature</a></li>
+            <li><a href="Distance.aspx">Distance</a></li>
+        </ul>
+        <br />
+        <br />
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# COMP4976_Lab
-images index.html README.md w01b
+# COMP4711_Lab
+COMP4711_Lab
